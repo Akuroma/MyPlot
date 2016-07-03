@@ -183,7 +183,7 @@ class EventListener implements Listener
                 $popup = TextFormat::WHITE . $paddingPopup . $popup . "\n" .
                          TextFormat::WHITE . $paddingOwnerPopup . $ownerPopup;
             }
-            $event->getPlayer()->sendPopup($popup);
+            $event->getPlayer()->sendTip($popup);
         }
     }
 }
